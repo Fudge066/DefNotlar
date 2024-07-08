@@ -32,6 +32,7 @@ def harf_notu(ortalama):
         return 'F'
 
 # Ana program
+"""
 def main():
     notlar = []
     while True:
@@ -60,4 +61,77 @@ def main():
 
 if __name__ == "__main__":
     main()
+    not örneği chatgptden alındı.
+    """
+"""
+def carpma(a,b):
+    return a*b
+sonuc = carpma(4,6)
+print(sonuc)
+"24"
+#def ile çarpma işlemi tanımladık ve bu çarpma işleminde a*b değerini döndürdük.
+#böylece carpma(x,y) ile fonksiyonu her çağırdığımızda ilk sayıyı 2.sayıyla çarparak değer döndürecek
+"""
+"""
+def helloworld():
+    print("merhaba dünya")
+helloworld()
+#sabit tanımla helloworld fonksiyonunu her çağırdığımızda otomatik olarak ekrana merhaba dünya yazdırıyor.
+"""
+"""
+def selam(isim="dünya"):
+    print(f"merhaba {isim}")
 
+selam()
+selam("furkan")
+"""
+"""
+def info(isim,yas):
+    print(f"isim: {isim}\nyaş:{yas}")
+
+info(yas=22, isim="furkan")
+"""
+""" 
+pythonda listeleme yöntemleri ve kullanım alanları***
+1-listeler
+listeler sııralı ve değiştirilebilir en yaygın python listeleme yöntemidir.
+listem = ["1","2","3","4","a","b","c"]:
+ çıktısı 1,2,3,4,a,b,c olarak ekrana gelecektir.
+listem.append(5)dersek
+1,2,3,4,a,b,c,5 olarak ekrana yazdırılır.
+listem.remove("a")dersek a harfi çıkacaktır.
+listelerde erişim için index'ini yazıp çağırmamız gerekiyor
+print listem[0]dersek çıktısı '1' olacaktır.
+tanımlaması[] şeklinde yapılır
+
+2-tuple'lar
+tuple'lar değiştirilemez sıralı listelerdir tuple'abir şey eklemek istediğimizde
+silmek veya manipüle etmek istediğimnizde typeError almış olacağız.
+tanımlarken () kullanırız
+tuple1=(1,2,3,4,'a','b','c')
+print (tuple1[1])
+çıktısı 2 olacaktır.
+tuple1[1] = 13 #Hata TypeError alacağız.
+
+3-set(kümeler)
+Setler değiştirilebilir ve sırasızdır. aynı elemanlar kullanılamaz her eleman eşsizdir.
+set1= {"1","2","3","4","a","b","c"}:
+ çıktısı {1,2,3,4,a,b,c} olarak ekrana gelecektir.
+listem.append(5)dersek
+{1,2,3,4,a,b,c,5} olarak ekrana yazdırılır.
+ Set elemanlarına indexle erişim sağlayamazsınız!,
+ {} ile tanımlanır
+ print(set1[1]) #Hata TypeError
+ 
+4-Dictionary(sözlükler)
+sözlükler anahtar ve değer çiflerinden oluşan değiştirilebilir sıralı veri yapısıdır.,
+sozluk1={'isim': 'Ahmet', 'yaş': 25, 'şehir': 'İstanbul'}
+print(sozluk)
+çıktısı: isim: Ahmet yaş:25 şehir : istanbul
+eleman eklemek için ekstra bir komut yoktur
+sozluk1['meslek']= "mühendis" yazarak listenin en sonuna meslek : mührndis olarak ekleyebiliriz
+del sozluk1['isim'] yazarak isim bölümünü sözlükten silebiliriz
+erişim sağlamak için [] kullanırız
+ print(sozluk1['sehir']) yazarsak sehir: istanbul yazdırılacaktır.
+ 
+"""
