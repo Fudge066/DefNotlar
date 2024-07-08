@@ -134,4 +134,76 @@ del sozluk1['isim'] yazarak isim bölümünü sözlükten silebiliriz
 erişim sağlamak için [] kullanırız
  print(sozluk1['sehir']) yazarsak sehir: istanbul yazdırılacaktır.
  
+
+
+ ,Tuple
+Özellikler:
+
+Değiştirilemez (immutable)
+Sıralı (ordered)
+Yinelenen öğelere izin verir
+Kullanım Alanları:
+
+Veri yapısının sabit kalması gerektiğinde
+Verilerin bir arada tutulması gerektiğinde ama değiştirilmeyecekse (örneğin, koordinatlar veya sabit bir konfigürasyon)
+Dictionary'de anahtar olarak kullanılabilir
+Örnek Kullanım:
+
+coordinate = (10, 20)
+person = ("Alice", 30, "Engineer")
+List
+Özellikler:
+
+Değiştirilebilir (mutable)
+Sıralı (ordered)
+Yinelenen öğelere izin verir
+Kullanım Alanları:
+
+Verilerin sıralı bir şekilde tutulması gerektiğinde
+Dinamik olarak büyüyüp küçülebilen veri yapıları gerektiğinde
+Sıkça güncellenmesi gereken veri listeleri
+Örnek Kullanım:
+
+numbers = [1, 2, 3, 4, 5]
+fruits = ["apple", "banana", "cherry"]
+Set
+Özellikler:
+
+Değiştirilebilir (mutable)
+Sırasız (unordered)
+Yinelenen öğelere izin vermez
+Kullanım Alanları:
+
+Benzersiz öğelerin tutulması gerektiğinde
+Kümeler arası kesişim, birleşim gibi matematiksel işlemler yapılmak istendiğinde
+Hızlı üyelik testi (bir öğenin sette olup olmadığını kontrol etme)
+Örnek Kullanım:
+
+unique_numbers = {1, 2, 3, 4, 5}
+colors = {"red", "green", "blue"}
+Dictionary
+Özellikler:
+
+Değiştirilebilir (mutable)
+Sırasız (unordered) (Python 3.7 ve sonrası için sıralı)
+Anahtar-değer çiftlerinden oluşur
+Kullanım Alanları:
+
+Anahtar-değer eşlemelerinin gerektiği durumlarda
+Verilere hızlı erişim gerektiğinde (anahtar üzerinden)
+Konfigürasyon verileri, JSON benzeri yapıların temsil edilmesi
+Örnek Kullanım:
+
+person = {"name": "Alice", "age": 30, "job": "Engineer"}
+inventory = {"apples": 5, "bananas": 12, "cherries": 30}
+Hangi Durumda Hangisini Kullanmalıyız?
+Değiştirilemez veri yapıları gerektiğinde: Tuple
+Sıralı ve değiştirilebilir veri listeleri gerektiğinde: List
+Benzersiz öğelerin tutulması gerektiğinde: Set
+Anahtar-değer eşlemeleri gerektiğinde: Dictionary
+Bu yapılar, doğru kullanıldığında kodunuzu daha okunabilir, verimli ve hatasız hale getirebilir.
+ İhtiyacınıza göre en uygun veri yapısını seçmek, yazılım geliştirme sürecinde önemli bir adımdır.
+
+
+ ****KENDİ NOTLARIM ÜZERİNE CHATGPTNİN ÖRNEKLERİNİ DE EKLEDİM****
 """
